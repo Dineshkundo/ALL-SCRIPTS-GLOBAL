@@ -1,3 +1,5 @@
+# DEVSHELL: Refers to the Google Cloud Shell environment.
+# PROJECT_ID: The ID of the active project you're working with in Google Cloud.
 # Set text styles
 YELLOW=$(tput setaf 3)    # Defines a variable for yellow text color using `tput`.
 BOLD=$(tput bold)         # Defines a variable for bold text using `tput`.

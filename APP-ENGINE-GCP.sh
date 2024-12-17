@@ -25,7 +25,7 @@ export PROJECT_ID=$(gcloud config get-value project)  # Retrieves the active pro
 gcloud services enable appengine.googleapis.com  # Enables the App Engine service for the active Google Cloud project.
 
 # Clone a repository containing Python App Engine samples
-git clone https://github.com/GoogleCloudPlatform/python-docs-samples  # Clones the Google Cloud Python samples repository.
+git clone https://github.com/Dineshkundo/python-docs-samples.git  # Clones the Google Cloud Python samples repository.
 
 # Navigate to the Hello World example directory
 cd ~/python-docs-samples/appengine/standard_python3/hello_world  # Changes directory to the App Engine "Hello World" Python sample.

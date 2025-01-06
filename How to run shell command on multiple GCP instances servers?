@@ -1,0 +1,12 @@
+#!/bin/bash
+instances=("instance1" "instance2")
+zone="us-central1-a"
+command="uptime"
+
+for instance in "${instances[@]}"; do
+  gcloud compute ssh "$instance" --zone="$zone" --command="$command"
+done
+
+# Save the script as run_commands.sh.
+# Make it executable: chmod +x run_commands.sh.
+# Run it: ./run_commands.sh.

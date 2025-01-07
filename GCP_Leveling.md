@@ -173,3 +173,4 @@ Completed labeling disks for all instances.
 
 ## License
 This script is open-source and can be modified or redistributed under the MIT License.
+https://engineering.sada.com/labeling-disks-using-shell-script-automation-on-google-cloud-platform-1e196f88d8eb

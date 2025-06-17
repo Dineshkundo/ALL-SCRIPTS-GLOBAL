@@ -1,0 +1,39 @@
+name: Multi Hello CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  hello-from-dev:
+    runs-on: ubuntu-latest
+    name: Hello from Dev Environment
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Print Hello from Dev
+        run: echo "Hello, World! This is the Dev pipeline."
+
+  hello-from-test:
+    runs-on: ubuntu-latest
+    name: Hello from Test Environment
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Print Hello from Test
+        run: echo "Hello, World! This is the Test pipeline."
+
+  hello-from-prod:
+    runs-on: ubuntu-latest
+    name: Hello from Prod Environment
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Print Hello from Prod
+        run: echo "Hello, World! This is the Production pipeline."

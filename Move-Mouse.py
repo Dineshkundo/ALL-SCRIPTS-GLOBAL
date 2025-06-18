@@ -1,3 +1,6 @@
+#USE as similar as move mouse app.
+#ROtate mouse curser every 60 sec.
+
 import pyautogui
 import time
 
